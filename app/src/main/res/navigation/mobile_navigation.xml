@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.l0122138.ridlo.responsi1wisatakebumen.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.l0122138.ridlo.responsi1wisatakebumen.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/destinationsFragment"
+        android:name="com.l0122138.ridlo.responsi1wisatakebumen.ui.destination.DestinationsFragment"
+        android:label="@string/title_destinations"
+        tools:layout="@layout/fragment_destinations">
+        <!-- Define a global action that any child fragment can use -->
+        <action
+            android:id="@+id/action_global_to_detailDestinationFragment"
+            app:destination="@id/detailDestinationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailDestinationFragment"
+        android:name="com.l0122138.ridlo.responsi1wisatakebumen.ui.destination.DetailDestinationFragment"
+        android:label="@string/title_detail"
+        tools:layout="@layout/fragment_detail_destination">
+        <argument
+            android:name="imageResId"
+            app:argType="integer" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="location"
+            app:argType="string" />
+        <argument
+            android:name="description"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/NaturalPlaceListFragment"
+        android:name="com.l0122138.ridlo.responsi1wisatakebumen.ui.destination.NaturalPlaceListFragment"
+        android:label="fragment_place_list"
+        tools:layout="@layout/fragment_natural_place_list" />
+    <fragment
+        android:id="@+id/NonNaturalPlaceListFragment"
+        android:name="com.l0122138.ridlo.responsi1wisatakebumen.ui.destination.NonNaturalPlaceListFragment"
+        android:label="fragment_other_place_list"
+        tools:layout="@layout/fragment_non_natural_place_list" />
+</navigation>

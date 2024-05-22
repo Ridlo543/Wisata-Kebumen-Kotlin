@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">Wisata-Kebumen-Ridlo</string>
+    <string name="title_home">Home</string>
+    <string name="title_destinations">Destinations</string>
+    <string name="title_detail">Detail Tempat</string>
+    <string name="title_profile">Profile</string>
+    <string name="kebumen">Kebumen</string>
+
+    <!--    data profile -->
+    <string name="nim_label">NIM: </string>
+    <string name="name_label">Nama: </string>
+    <string name="major_label">Jurusan: </string>
+    <string name="year_label">Angkatan: </string>
+    <string name="faculty_label">Fakultas: </string>
+    <string name="university_label">Universitas: </string>
+    <string name="email_label">Email: </string>
+    <string name="description_label">Deskripsi: </string>
+    <string name="share_button">Share: </string>
+    <string name="back_button">Kembali: </string>
+
+    <string name="detail_nim">L0122138</string>
+    <string name="detail_nama">Ridlo</string>
+    <string name="detail_jurusan">Informatika</string>
+    <string name="detail_angkatan">2022</string>
+    <string name="detail_fakultas">FATISDA</string>
+    <string name="detail_universitas">Universitas Sebelas Maret</string>
+    <string name="detail_email">ridloabdullahulinnuha543@gmail.com</string>
+    <string name="detail_deskripsi">Sebagai developer yang berasal dari Universitas Sebelas Maret, saya memiliki dedikasi tinggi dalam pengembangan perangkat lunak. Saya terus mengasah kemampuan saya dalam berbagai teknologi mutakhir, termasuk AstroJS, NextJS, ReactJS, dan Flutter, </string>
+
+    <string name="kebumen_description1">Kebumen, sebuah permata tersembunyi di Jawa Tengah, menawarkan keindahan alam dan kekayaan budaya yang menakjubkan. Dari pantai-pantai yang mempesona seperti Pantai Karang Bolong dan Pantai Logending, hingga gua-gua eksotis seperti Goa Jatijajar dan Goa Petruk, setiap sudut Kebumen menyimpan keajaiban alam yang menunggu untuk dijelajahi. Selain itu, Kebumen juga dikenal dengan kuliner lokalnya yang lezat, seperti sate ambal dan nasi penggel, yang siap memanjakan lidah Anda. Temukan pengalaman tak terlupakan dengan menjelajahi keunikan Kebumen dan nikmati pesonanya yang memikat. Dengan aplikasi ini, seluruh informasi destinasi, budaya, dan kuliner khas Kebumen ada dalam genggaman Anda, siap menemani perjalanan Anda mengungkap keindahan Kebumen.</string>
+    <string name="kebumen_description2">Selain itu, Kebumen juga dikenal dengan kuliner lokalnya yang lezat, seperti sate ambal dan nasi penggel, yang siap memanjakan lidah Anda. Temukan pengalaman tak terlupakan dengan menjelajahi keunikan Kebumen dan nikmati pesonanya yang memikat. Dengan aplikasi ini, seluruh informasi destinasi, budaya, dan kuliner khas Kebumen ada dalam genggaman Anda, siap menemani perjalanan Anda mengungkap keindahan Kebumen.</string>
+
+
+    <string name="place_image">Gambar tempat</string>
+    <string name="title_app">Wisata Kebumen</string>
+    <string name="author">Ridlo - L0122138</string>
+
+    <string name="name_profile">Name</string>
+    <string name="address_profile">Address</string>
+    <string name="save">Save</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

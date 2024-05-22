@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="80dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/foto_ridlo"
+            app:civ_border_color="#FF000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.04" />
+
+        <!-- NIM -->
+        <TextView
+            android:id="@+id/nimLabel"
+            style="@style/LabelStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/nim_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/profileImage" />
+
+        <TextView
+            android:id="@+id/nimDetail"
+            style="@style/DetailStyle"
+            android:paddingHorizontal="8dp"
+            android:text="@string/detail_nim"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/nimLabel"
+            app:layout_constraintTop_toTopOf="@id/nimLabel" />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/nameLabel"
+            style="@style/LabelStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/name_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nimLabel" />
+
+        <TextView
+            android:id="@+id/nameDetail"
+            style="@style/DetailStyle"
+            android:paddingHorizontal="8dp"
+            android:text="@string/detail_nama"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/nameLabel"
+            app:layout_constraintTop_toTopOf="@id/nameLabel" />
+
+        <!-- Major -->
+        <TextView
+            android:id="@+id/majorLabel"
+            style="@style/LabelStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/major_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nameLabel" />
+
+        <TextView
+            android:id="@+id/majorDetail"
+            style="@style/DetailStyle"
+            android:paddingHorizontal="8dp"
+            android:text="@string/detail_jurusan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/majorLabel"
+            app:layout_constraintTop_toTopOf="@id/majorLabel" />
+
+        <!-- Year -->
+        <TextView
+            android:id="@+id/yearLabel"
+            style="@style/LabelStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/year_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/majorLabel" />
+
+        <TextView
+            android:id="@+id/yearDetail"
+            style="@style/DetailStyle"
+            android:paddingHorizontal="8dp"
+            android:text="@string/detail_angkatan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/yearLabel"
+            app:layout_constraintTop_toTopOf="@id/yearLabel" />
+
+        <!-- Faculty -->
+        <TextView
+            android:id="@+id/facultyLabel"
+            style="@style/LabelStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/faculty_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/yearLabel" />
+
+        <TextView
+            android:id="@+id/facultyDetail"
+            style="@style/DetailStyle"
+            android:paddingHorizontal="8dp"
+            android:text="@string/detail_fakultas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/facultyLabel"
+            app:layout_constraintTop_toTopOf="@id/facultyLabel" />
+
+        <!-- University -->
+        <TextView
+            android:id="@+id/universityLabel"
+            style="@style/LabelStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/university_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/facultyLabel" />
+
+        <TextView
+            android:id="@+id/universityDetail"
+            style="@style/DetailStyle"
+            android:paddingHorizontal="8dp"
+            android:text="@string/detail_universitas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/universityLabel"
+            app:layout_constraintTop_toTopOf="@id/universityLabel" />
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/emailLabel"
+            style="@style/LabelStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/email_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/universityLabel" />
+
+        <TextView
+            android:id="@+id/emailDetail"
+            style="@style/DetailStyle"
+            android:paddingHorizontal="8dp"
+            android:text="@string/detail_email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/emailLabel"
+            app:layout_constraintTop_toTopOf="@id/emailLabel" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/descriptionLabel"
+            style="@style/LabelStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/description_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/emailLabel" />
+
+        <TextView
+            android:id="@+id/descriptionDetail"
+            style="@style/DetailStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/detail_deskripsi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/descriptionLabel" />
+
+        <!-- Share Button -->
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/share_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/descriptionDetail" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

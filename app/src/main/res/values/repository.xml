@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    natural place   -->
+    <array name="natural_place_images">
+        <item>@drawable/bukit_hud</item>
+        <item>@drawable/bukit_banda</item>
+        <item>@drawable/bukit_pranji</item>
+        <item>@drawable/padegolan</item>
+        <item>@drawable/pantai_menganti</item>
+        <item>@drawable/pantai_pecaron</item>
+        <item>@drawable/pantai_sawangan</item>
+        <item>@drawable/pantai_suwuk</item>
+        <item>@drawable/goa_jatijajar</item>
+        <item>@drawable/curug_silancur</item>
+    </array>
+
+    <string-array name="natural_place_names">
+        <item>Bukit Hud</item>
+        <item>Bukit Banda</item>
+        <item>Bukit Pranji</item>
+        <item>Arung Jeram Padegolan</item>
+        <item>Pantai Menganti</item>
+        <item>Pantai Pecaron</item>
+        <item>Pantai Sawangan</item>
+        <item>Pantai Suwuk</item>
+        <item>Goa Jatijajar</item>
+        <item>Curug Silancur</item>
+    </string-array>
+
+    <string-array name="natural_place_locations">
+        <item>Desa Karangbolong, Kecamatan Buayan, Kabupaten Kebumen</item>
+        <item>Jl. Karangsambung, Wadasmalang, Kecamatan Karangsambung, Kabupaten Kebumen, Jawa Tengah</item>
+        <item>Desa Pengaringan, Kecamatan Pejagoan, Kabupaten Kebumen, Jawa Tengah</item>
+        <item>Waduk Wadas Lintang, Kecamatan Prembun, Kabupaten Kebumen, Jawa Tengah</item>
+        <item>Desa Karangduwur, Kecamatan Ayah, Kabupaten Kebumen, Jawa Tengah</item>
+        <item>Desa Srati, Kecamatan Ayah, Kabupaten Kebumen, Jawa Tengah</item>
+        <item>desa Karangduwur, Kecamatan Ayah, Kebumen</item>
+        <item>Desa Tambakmulyo, kecamatan Puring, Kabupaten Kebumen, Jawa Tengah</item>
+        <item>Desa Jatijajar, Kec. Ayah, Kab. Kebumen.</item>
+        <item>Dusun Pujegan, Desa Wadasmalang, Karangsambung, Kebumen. </item>
+    </string-array>
+
+    <string-array name="natural_place_description">
+        <item>Bukit satu ini juga disebut sebagai Bukit Hud, Uhud, atau Hood dan terletaknya di atas ketinggian 150 mdpl.Melalui ketinggian ini, kamu dapat menikmati keindahan dari pemandangan pesisir selatan Pulau Jawa dengan lebih jelas.
+        Selain itu, warga lokal juga membuat sebuah spot yang menari di bukti ini berupa anjungan. Spot satu ini dapat membuat pengunjung bisa menjadi lebih mudah dan jelas dalam melihat garis pantai yang ada.</item>
+        <item>Bukit Banda merupakan salah satu tempat wisata yang berada di Kebumen yang merupakan sebuah bukit. Mwskipun Kebumen memiliki bukit lain seperti Bukit Langit, Bukit Jerit, Bukit Pentulu Indah, dan masih banyak lainnya, bukan berarti tempat wisata Kebumen satu ini tidak pas untuk masuk list destinasi wisata rekomendasi untuk  liburanmu. \nBukti Banda pun menawarkan pemandangan alam yang masih terjaga dengan lautan awan yang bisa kamu saksikan di pagi hari saat cuacanya cerah dari daerah puncak ketinggian</item>
+        <item>Bukit Pranji menyuguhkan pemandangan alam yang sangat menarik. Meski tampak biasa saja di siang hari, keindahan tempat ini baru bisa dinikmati pada malam hari. Dari atas bukit terlihat gemerlap lampu rumah-rumah penduduk dan bintang-bintang. Kecantikan nuansa malam hari ini akan berlanjut hingga pagi hari. Jadi tidak heran jika banyak orang memilih untuk bermalaman di bukit ini.</item>
+        <item>Buat mancoders yang ingin memacu adrenalin di Kebumen, ada baiknya untuk menjajal wisata arung jeram di Padegolan. Sungai Padegolan sendiri merupakan sungai limpahan air di bawah Bendungan Waduk Wadaslintang, Kecamatan Prembun. Titik start akan dimulai dari Desa Sendang Dalem dan berakhir di Bendungan Pejengkolan. Saat melakukan arung jeram, akan ditemani oleh pemandangan pepohonan di kiri-kanan sungai. Karena berasal dari waduk, air sungai ini sangat jernih sehingga perjalanan arung jeram tidak akan terasa.</item>
+        <item>Pantai ini memiliki pasir putih yang lembut dan air laut yang jernih. Pantai Menganti merupakan salah satu destinasi wisata yang populer di Kabupaten Kebumen dan sering dikunjungi oleh wisatawan yang ingin bersantai dan berenang</item>
+        <item>Pantai Pecaron merupakan sebuah pantai yang terletak di Kabupaten Kebumen. Pantai ini memiliki pasir putih yang lembut dan air laut yang jernih. Pantai Pecaron merupakan salah satu destinasi wisata yang populer di Kabupaten Kebumen dan sering dikunjungi oleh wisatawan yang ingin bersantai dan berenang.</item>
+        <item>Pantai yang terletak di Desa Tambakmulyo, Kecamatan Puring. Pantai ini memiliki pasir putih yang lembut dan air laut yang jernih. Ada juga fasilitas wisata bahari seperti snorkeling, diving, dan sewa perahu.</item>
+        <item>Pantai Suwuk merupakan sebuah pantai yang terletak di Kabupaten Kebumen. Pantai ini memiliki pasir putih yang lembut dan air laut yang jernih. Pantai Suwuk merupakan salah satu destinasi wisata yang populer di Kabupaten Kebumen dan sering dikunjungi oleh wisatawan yang ingin bersantai dan berenang.</item>
+        <item>Goa satu ini menawarkan pemandangan yang begitu indah serta eksotis, sayang apabila kamu lewatkan dengan begitu saja. Gua ini sendiri terbentuk dari batu kapur dan membuat stalaktit serta stalagmitnya terlihat lebih menarik dan indah.Penemuan gua ini juga sudah begitu lama yaitu sejak tahun 1802 dan sampai sekarang masih terjaga dengan baik. Di dalamnya, kamu juga dapat menikmati patung serta sumber mata air yang membuat tampilan dan pemandangan semakin indah.</item>
+        <item>Waduk yang terletak di Desa Sempor, Kecamatan Sempor. Waduk ini dapat digunakan untuk wisata air dengan fasilitas sewa perahu dan menyelam. Ada juga taman bermain dan penginapan di sekitar waduk.</item>
+    </string-array>
+
+    <!--    non_natural-->
+    <array name="non_natural_place_images">
+        <item>@drawable/benteng_vanderwijck</item>
+        <item>@drawable/brujul_park</item>
+        <item>@drawable/alian_park</item>
+        <item>@drawable/roemah_martha</item>
+        <item>@drawable/masjid_saka</item>
+        <item>@drawable/klenteng_kong_hwie</item>
+        <item>@drawable/pandan_kuning</item>
+        <item>@drawable/krakal</item>
+        <item>@drawable/pentulu_indah</item>
+        <item>@drawable/waduk_sempor</item>
+    </array>
+
+    <string-array name="non_natural_place_names">
+        <item>Benteng Van Der Wijck</item>
+        <item>Brujul Adventure Park</item>
+        <item>Alian Butterfly Park</item>
+        <item>Roemah Martha Tilaar</item>
+        <item>Masjid Saka Tunggal</item>
+        <item>Klenteng Kong Hwie Kiong</item>
+        <item>Pandan Kuning Park</item>
+        <item>Pemandian Air Panas Krakal</item>
+        <item>Pentulu Indah</item>
+        <item>Waduk Sempor</item>
+    </string-array>
+
+    <string-array name="non_natural_place_locations">
+        <item>Kecamatan Gombong, Kabupaten Kebumen, Jawa Tengah</item>
+        <item>Jl. Raya Peniron, Ladang, Pejagoan, Kab. Kebumen</item>
+        <item>Krakal, Alian, Kebumen.</item>
+        <item>Jalan Sempor Lama nomor 28, Gombong, Kebumen</item>
+        <item>Desa Pekuncen, Kecamatan Sempor, Kebumen</item>
+        <item>Jl. Pramuka No. 41, Kebumen</item>
+        <item>Karanggadung, Kecamatan Petanahan, Kabupaten Kebumen</item>
+        <item>Desa Krakal, Kecamatan Alian, Kebumen.</item>
+        <item>Desa Kaligending, Kecamatan Karangsambung,, Kabupaten Kebumen, Jawa Tengah</item>
+        <item>Desa Sempor, Kecamatan Sempor, Kabupaten Kebumen, Jawa Tengah</item>
+    </string-array>
+
+    <string-array name="non_natural_place_description">
+        <item>Benteng Van Der Wijck merupakan sebuah benteng yang terletak di Kabupaten Kebumen. Benteng ini dibangun pada abad ke-19 dan merupakan salah satu tempat yang populer untuk melakukan kegiatan outdoor seperti trekking dan panjat tebing. Selain itu, Benteng Van Der Wijck juga merupakan tempat yang cocok untuk menikmati keindahan alam yang masih alami.</item>
+        <item>Rekomendasi tempat wisata di Kebumen selanjutnya yaitu ada Brujul Adventure Park atau BAP. Di sini, kamu bisa menikmati begitu banyak fasilitas yang cukup modern. Misalnya seperti sepeda layang, panahan, flying fox, dan lain sebagainya.</item>
+        <item>Salah satunya yaitu yang ada di Alian Butterfly Park dan menjadi tempat wisata edukasi yang begitu atraktif. Di sini, kamu dapat belajar mengenai berbagai jenis dari kupu-kupu serta bunga. Kamu bisa menambahkan wawasan yang dimiliki mengenai kedua hal tersebut. Apabila kamu ingin melihat dan bertemu dengan banyak kupu-kupu, disarankan untuk datang saat pagi hari.
+        </item>
+        <item>Obyek wisata Kebumen terbaru dan paling hits ini adalah rumah masa kecil Martha. Roemah Martha Tilaar merupakan bangunan lama bergaya arsitektur neoklasik Eropa yang telah dipugar. Bangunan dengan tegel-tegel bermotif serta berkaca patri ini kini bertransformasi menjadi bangunan baru yang siap dikunjungi oleh wisatawan.</item>
+        <item>Masjid yang dikenal masjid Saka Tunggal (Soko Tunggal), yang diyakini merupakan masjid tertua di Kebumen. masjid ini dibangun sekitar tahun 1719 pada masa Adipati Mangkuprojo.</item>
+        <item>Klenteng Kong HwieKiong oleh para pedagang Cina pada 1898. Klenteng ini dulu pernah terbakar pada tahun 1947 dan dipugar kembali pada 1969. Tuan rumahnya Thian Siang Seng Boo, Dewi Penguasa Laut.</item>
+        <item>Pandan Kuning Park merupakan sebuah tempat wisata baru yang ada di Karanggadung, Kecamatan Petanahan, Kabupaten Kebumen, Jawa Tengah. Konsepnya yakni mini Dufan Ancol dengan banyak wahana. </item>
+        <item>Pemandian Air Panas Krakal dibangun sejak 1905 oleh Kolonial Belanda. Walau sudah ada sejak lama, tetapi air di pemandian ini masih alami dan hangat. Suhu airnya berkisar 39—42 derajat Celsius. Pas untukmu yang ingin berendam.</item>
+        <item>Bukit yang terletak di Desa Kaligending, Kecamatan Karangsambung,. Bukit ini menawarkan pemandangan alam yang indah dengan hutan pinus dan sawah terasering di sekitarnya. Ada juga fasilitas pendakian dan penginapan di sekitar bukit.</item>
+        <item>Waduk yang terletak di Desa Sempor, Kecamatan Sempor. Waduk ini dapat digunakan untuk wisata air dengan fasilitas sewa perahu dan menyelam. Ada juga taman bermain dan penginapan di sekitar waduk.</item>
+    </string-array>
+
+</resources>
